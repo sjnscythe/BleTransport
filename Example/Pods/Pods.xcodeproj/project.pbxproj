@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12CD47F5CD683FE66C5CEDFB14D8B0E4 /* Pods-BleTransport_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 624BB04165ACC73C09C5A8A6D1238030 /* Pods-BleTransport_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13B0AF0E3E0886F4CDFE151CA64B28D2 /* BleTransport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA84C8F4DEA328321A0545435517358 /* BleTransport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2229E9FC1E86553698260DD78258BAD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2CC058E616C4D292A31BEF354FBA8B37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		56699575E9D481317D94FEB645A318E6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B963552AE341B925D467E24D6168FC /* ReplaceMe.swift */; };
+		8B85815D8A05066CD17EEDB221B0AAAF /* BleTransport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 213EE2FE717CA2CD86A80FFF26638556 /* BleTransport-dummy.m */; };
+		9CA14AA58764A4CC1989A9F52A520C2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B0787B2FF9634CD6AA3CEE2CFEECF3C7 /* Pods-BleTransport_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B7EEE0FAC073BB733F6E9650976E6A /* Pods-BleTransport_Tests-dummy.m */; };
+		B80845337E048946710B74B96A9030AA /* Pods-BleTransport_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 227A180404AF88ECD1D57D1794D7793A /* Pods-BleTransport_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5154F937771B3CBFBC6763BFC768E08 /* Pods-BleTransport_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AA1FD023ABFA54F2E7F6EDD775CD37 /* Pods-BleTransport_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58ABD43EF2F244B3B5C559FB881D9F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E77860F6628D50500386698FEFC161;
+			remoteInfo = "Pods-BleTransport_Example";
+		};
+		85B2CEB5C478A529699CCB2E77D4496F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 240F043928909BC2EDD263F710B7EB77;
+			remoteInfo = BleTransport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B7EEE0FAC073BB733F6E9650976E6A /* Pods-BleTransport_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BleTransport_Tests-dummy.m"; sourceTree = "<group>"; };
+		04EA312CAADCD4686C3B758E684D9C1A /* BleTransport */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BleTransport; path = BleTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3A9DD3C7B0E5F4E3CE768BB408DB4D /* Pods-BleTransport_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BleTransport_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EE4A5539CECAA40F422306C8C828696 /* Pods-BleTransport_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BleTransport_Tests-Info.plist"; sourceTree = "<group>"; };
+		1F5289B8A037F877150526B7C580F5C1 /* BleTransport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BleTransport.debug.xcconfig; sourceTree = "<group>"; };
+		213EE2FE717CA2CD86A80FFF26638556 /* BleTransport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BleTransport-dummy.m"; sourceTree = "<group>"; };
+		227A180404AF88ECD1D57D1794D7793A /* Pods-BleTransport_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BleTransport_Example-umbrella.h"; sourceTree = "<group>"; };
+		25D5EB118926D11F7F0950E40FBABE0A /* BleTransport-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BleTransport-Info.plist"; sourceTree = "<group>"; };
+		2DA84C8F4DEA328321A0545435517358 /* BleTransport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BleTransport-umbrella.h"; sourceTree = "<group>"; };
+		2F15FDCE9D62176CE5972BC84BFFB2A7 /* Pods-BleTransport_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BleTransport_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4F7F26CF5AC10BA98ED9A70038B5D98F /* Pods-BleTransport_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BleTransport_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		57C69F1BB6FB98F45C3E220E5E1C279C /* BleTransport.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BleTransport.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		624BB04165ACC73C09C5A8A6D1238030 /* Pods-BleTransport_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BleTransport_Tests-umbrella.h"; sourceTree = "<group>"; };
+		62A5C17BBF5C43738C7ED5B4436B608F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6C458B213B6179763414E4E5B8F932D4 /* Pods-BleTransport_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BleTransport_Example.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AFA140AD6482CC6B100D24D7E4E82C9 /* Pods-BleTransport_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BleTransport_Example"; path = Pods_BleTransport_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECAA25E9A1E029D200B5E3789AE8337 /* Pods-BleTransport_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BleTransport_Example-Info.plist"; sourceTree = "<group>"; };
+		7FF8E506FF73D3DBB11DB6D9A478F628 /* Pods-BleTransport_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BleTransport_Tests"; path = Pods_BleTransport_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CB300D528D43D7156FB302687A1B67 /* BleTransport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BleTransport.release.xcconfig; sourceTree = "<group>"; };
+		97AA1FD023ABFA54F2E7F6EDD775CD37 /* Pods-BleTransport_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BleTransport_Example-dummy.m"; sourceTree = "<group>"; };
+		99379592FB87A34119009A2C391E7CFA /* BleTransport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BleTransport.modulemap; sourceTree = "<group>"; };
+		99C0B80F3BDE3DDCC6960EB1C6A54F20 /* Pods-BleTransport_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BleTransport_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FEC9A6A468F8834F2CE750902800CB9 /* Pods-BleTransport_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BleTransport_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B38018E9A46420E95AD573D53E0709E2 /* BleTransport-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BleTransport-prefix.pch"; sourceTree = "<group>"; };
+		BFA89D682E1FD88BE973F87101CA6E67 /* Pods-BleTransport_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BleTransport_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDD35CAF4FB006995A63B6D2A16E5630 /* Pods-BleTransport_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BleTransport_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9B963552AE341B925D467E24D6168FC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BleTransport/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F003267DA798735F3F0E2CBFAD39DE1C /* Pods-BleTransport_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BleTransport_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F6000300B7C2DF837559C88211EB9CF0 /* Pods-BleTransport_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BleTransport_Tests.modulemap"; sourceTree = "<group>"; };
+		F911EF7881EC7FC8881BEBA3A9105AD3 /* Pods-BleTransport_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BleTransport_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FC466D97B3BCC1C1A0791CE9AC34A5EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29273D9F477E11A6755ACD1152AE2EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC058E616C4D292A31BEF354FBA8B37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9B9BD92F106C66ACDC67C5C8DAA335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA14AA58764A4CC1989A9F52A520C2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99676F810FC1A9584598A7E7214CE33A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229E9FC1E86553698260DD78258BAD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65C33033012888A3588B5114BC71D3EE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0478736947C5EB2F5B247A14949BEB9 /* BleTransport */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6727A387365121242A58C6F35AE8D228 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				57C69F1BB6FB98F45C3E220E5E1C279C /* BleTransport.podspec */,
+				62A5C17BBF5C43738C7ED5B4436B608F /* LICENSE */,
+				FC466D97B3BCC1C1A0791CE9AC34A5EE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6DE12D7960EDB4512413855040F90687 /* Pods-BleTransport_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F6000300B7C2DF837559C88211EB9CF0 /* Pods-BleTransport_Tests.modulemap */,
+				9FEC9A6A468F8834F2CE750902800CB9 /* Pods-BleTransport_Tests-acknowledgements.markdown */,
+				99C0B80F3BDE3DDCC6960EB1C6A54F20 /* Pods-BleTransport_Tests-acknowledgements.plist */,
+				00B7EEE0FAC073BB733F6E9650976E6A /* Pods-BleTransport_Tests-dummy.m */,
+				0EE4A5539CECAA40F422306C8C828696 /* Pods-BleTransport_Tests-Info.plist */,
+				624BB04165ACC73C09C5A8A6D1238030 /* Pods-BleTransport_Tests-umbrella.h */,
+				DDD35CAF4FB006995A63B6D2A16E5630 /* Pods-BleTransport_Tests.debug.xcconfig */,
+				2F15FDCE9D62176CE5972BC84BFFB2A7 /* Pods-BleTransport_Tests.release.xcconfig */,
+			);
+			name = "Pods-BleTransport_Tests";
+			path = "Target Support Files/Pods-BleTransport_Tests";
+			sourceTree = "<group>";
+		};
+		9B2C7F9ABC0485DB7C6D48181288DA4F /* Pods-BleTransport_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6C458B213B6179763414E4E5B8F932D4 /* Pods-BleTransport_Example.modulemap */,
+				BFA89D682E1FD88BE973F87101CA6E67 /* Pods-BleTransport_Example-acknowledgements.markdown */,
+				0D3A9DD3C7B0E5F4E3CE768BB408DB4D /* Pods-BleTransport_Example-acknowledgements.plist */,
+				97AA1FD023ABFA54F2E7F6EDD775CD37 /* Pods-BleTransport_Example-dummy.m */,
+				F911EF7881EC7FC8881BEBA3A9105AD3 /* Pods-BleTransport_Example-frameworks.sh */,
+				7ECAA25E9A1E029D200B5E3789AE8337 /* Pods-BleTransport_Example-Info.plist */,
+				227A180404AF88ECD1D57D1794D7793A /* Pods-BleTransport_Example-umbrella.h */,
+				4F7F26CF5AC10BA98ED9A70038B5D98F /* Pods-BleTransport_Example.debug.xcconfig */,
+				F003267DA798735F3F0E2CBFAD39DE1C /* Pods-BleTransport_Example.release.xcconfig */,
+			);
+			name = "Pods-BleTransport_Example";
+			path = "Target Support Files/Pods-BleTransport_Example";
+			sourceTree = "<group>";
+		};
+		C4B416B74D38149ED1E8C2F1EB1034E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99379592FB87A34119009A2C391E7CFA /* BleTransport.modulemap */,
+				213EE2FE717CA2CD86A80FFF26638556 /* BleTransport-dummy.m */,
+				25D5EB118926D11F7F0950E40FBABE0A /* BleTransport-Info.plist */,
+				B38018E9A46420E95AD573D53E0709E2 /* BleTransport-prefix.pch */,
+				2DA84C8F4DEA328321A0545435517358 /* BleTransport-umbrella.h */,
+				1F5289B8A037F877150526B7C580F5C1 /* BleTransport.debug.xcconfig */,
+				95CB300D528D43D7156FB302687A1B67 /* BleTransport.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BleTransport";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				65C33033012888A3588B5114BC71D3EE /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EC1ED0F880E0D4F523AE9D0DAA7951DF /* Products */,
+				FFA1A5098F041D7F9D75B717A5875C08 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC1ED0F880E0D4F523AE9D0DAA7951DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EA312CAADCD4686C3B758E684D9C1A /* BleTransport */,
+				7AFA140AD6482CC6B100D24D7E4E82C9 /* Pods-BleTransport_Example */,
+				7FF8E506FF73D3DBB11DB6D9A478F628 /* Pods-BleTransport_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0478736947C5EB2F5B247A14949BEB9 /* BleTransport */ = {
+			isa = PBXGroup;
+			children = (
+				E9B963552AE341B925D467E24D6168FC /* ReplaceMe.swift */,
+				6727A387365121242A58C6F35AE8D228 /* Pod */,
+				C4B416B74D38149ED1E8C2F1EB1034E5 /* Support Files */,
+			);
+			name = BleTransport;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FFA1A5098F041D7F9D75B717A5875C08 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B2C7F9ABC0485DB7C6D48181288DA4F /* Pods-BleTransport_Example */,
+				6DE12D7960EDB4512413855040F90687 /* Pods-BleTransport_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14FA7DB4638EB9CCDEECA321B776E9EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80845337E048946710B74B96A9030AA /* Pods-BleTransport_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		591B38C30C3722A922D36BB0CB5DAE9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B0AF0E3E0886F4CDFE151CA64B28D2 /* BleTransport-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A472AA396B924F94A3E6FD9CDAB1E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CD47F5CD683FE66C5CEDFB14D8B0E4 /* Pods-BleTransport_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		240F043928909BC2EDD263F710B7EB77 /* BleTransport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20A9D3246D5D6AFD34C6F3D6B8A306B /* Build configuration list for PBXNativeTarget "BleTransport" */;
+			buildPhases = (
+				591B38C30C3722A922D36BB0CB5DAE9B /* Headers */,
+				8448D8F6C898420D9E40C99314D6F4AC /* Sources */,
+				29273D9F477E11A6755ACD1152AE2EC1 /* Frameworks */,
+				2DB48745EA8B210B09DC7F4720CDBEFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BleTransport;
+			productName = BleTransport;
+			productReference = 04EA312CAADCD4686C3B758E684D9C1A /* BleTransport */;
+			productType = "com.apple.product-type.framework";
+		};
+		447984F4F381AB81B9CFE41660A3F629 /* Pods-BleTransport_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822E311EF49FE2B4ED43D9197F161BFC /* Build configuration list for PBXNativeTarget "Pods-BleTransport_Tests" */;
+			buildPhases = (
+				C5A472AA396B924F94A3E6FD9CDAB1E9 /* Headers */,
+				BC2277E45241620E5A114CE1929B8B54 /* Sources */,
+				2F9B9BD92F106C66ACDC67C5C8DAA335 /* Frameworks */,
+				7E903FE271CC4487AEAA18D717B45B34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E62B016588BCE3B0D273B62FCAC185CA /* PBXTargetDependency */,
+			);
+			name = "Pods-BleTransport_Tests";
+			productName = Pods_BleTransport_Tests;
+			productReference = 7FF8E506FF73D3DBB11DB6D9A478F628 /* Pods-BleTransport_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2E77860F6628D50500386698FEFC161 /* Pods-BleTransport_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E995F327DEDB6C065A47735DF0DAA713 /* Build configuration list for PBXNativeTarget "Pods-BleTransport_Example" */;
+			buildPhases = (
+				14FA7DB4638EB9CCDEECA321B776E9EC /* Headers */,
+				9B3584EB1EA37246A5D5EC4E17E71793 /* Sources */,
+				99676F810FC1A9584598A7E7214CE33A /* Frameworks */,
+				572DDC51576F643F1B223AADECBC7FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF2AABC0E9172E5DA3EA5FFE0D9C1498 /* PBXTargetDependency */,
+			);
+			name = "Pods-BleTransport_Example";
+			productName = Pods_BleTransport_Example;
+			productReference = 7AFA140AD6482CC6B100D24D7E4E82C9 /* Pods-BleTransport_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EC1ED0F880E0D4F523AE9D0DAA7951DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				240F043928909BC2EDD263F710B7EB77 /* BleTransport */,
+				C2E77860F6628D50500386698FEFC161 /* Pods-BleTransport_Example */,
+				447984F4F381AB81B9CFE41660A3F629 /* Pods-BleTransport_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DB48745EA8B210B09DC7F4720CDBEFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572DDC51576F643F1B223AADECBC7FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E903FE271CC4487AEAA18D717B45B34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8448D8F6C898420D9E40C99314D6F4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B85815D8A05066CD17EEDB221B0AAAF /* BleTransport-dummy.m in Sources */,
+				56699575E9D481317D94FEB645A318E6 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3584EB1EA37246A5D5EC4E17E71793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5154F937771B3CBFBC6763BFC768E08 /* Pods-BleTransport_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2277E45241620E5A114CE1929B8B54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0787B2FF9634CD6AA3CEE2CFEECF3C7 /* Pods-BleTransport_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E62B016588BCE3B0D273B62FCAC185CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BleTransport_Example";
+			target = C2E77860F6628D50500386698FEFC161 /* Pods-BleTransport_Example */;
+			targetProxy = 58ABD43EF2F244B3B5C559FB881D9F9D /* PBXContainerItemProxy */;
+		};
+		FF2AABC0E9172E5DA3EA5FFE0D9C1498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BleTransport;
+			target = 240F043928909BC2EDD263F710B7EB77 /* BleTransport */;
+			targetProxy = 85B2CEB5C478A529699CCB2E77D4496F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AA7F9E1DAF958B8DEF9F6E22E0BD529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7F26CF5AC10BA98ED9A70038B5D98F /* Pods-BleTransport_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BleTransport_Example/Pods-BleTransport_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BleTransport_Example/Pods-BleTransport_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54F38AC97C917513E4A3BAB941FDCC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD35CAF4FB006995A63B6D2A16E5630 /* Pods-BleTransport_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BleTransport_Tests/Pods-BleTransport_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BleTransport_Tests/Pods-BleTransport_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6103DC506BBB5D708035E43F6D4AB9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95CB300D528D43D7156FB302687A1B67 /* BleTransport.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BleTransport/BleTransport-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BleTransport/BleTransport-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BleTransport/BleTransport.modulemap";
+				PRODUCT_MODULE_NAME = BleTransport;
+				PRODUCT_NAME = BleTransport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		86F8C1D4C01C501D6EA71342E3BE675F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5289B8A037F877150526B7C580F5C1 /* BleTransport.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BleTransport/BleTransport-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BleTransport/BleTransport-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BleTransport/BleTransport.modulemap";
+				PRODUCT_MODULE_NAME = BleTransport;
+				PRODUCT_NAME = BleTransport;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EDCBBBC7A2ED5233795484B88175BA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F15FDCE9D62176CE5972BC84BFFB2A7 /* Pods-BleTransport_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BleTransport_Tests/Pods-BleTransport_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BleTransport_Tests/Pods-BleTransport_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE33C63EC6228FD291FF5FC8F01BE089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F003267DA798735F3F0E2CBFAD39DE1C /* Pods-BleTransport_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BleTransport_Example/Pods-BleTransport_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BleTransport_Example/Pods-BleTransport_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822E311EF49FE2B4ED43D9197F161BFC /* Build configuration list for PBXNativeTarget "Pods-BleTransport_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F38AC97C917513E4A3BAB941FDCC3C /* Debug */,
+				EDCBBBC7A2ED5233795484B88175BA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20A9D3246D5D6AFD34C6F3D6B8A306B /* Build configuration list for PBXNativeTarget "BleTransport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F8C1D4C01C501D6EA71342E3BE675F /* Debug */,
+				6103DC506BBB5D708035E43F6D4AB9A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E995F327DEDB6C065A47735DF0DAA713 /* Build configuration list for PBXNativeTarget "Pods-BleTransport_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA7F9E1DAF958B8DEF9F6E22E0BD529 /* Debug */,
+				FE33C63EC6228FD291FF5FC8F01BE089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

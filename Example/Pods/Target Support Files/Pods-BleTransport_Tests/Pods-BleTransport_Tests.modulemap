@@ -1,0 +1,6 @@
+framework module Pods_BleTransport_Tests {
+  umbrella header "Pods-BleTransport_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

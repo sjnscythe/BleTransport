@@ -1,0 +1,16 @@
+PODS:
+  - BleTransport (0.1.0)
+
+DEPENDENCIES:
+  - BleTransport (from `../`)
+
+EXTERNAL SOURCES:
+  BleTransport:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BleTransport: 2780081e6dc5563e2e051f3841765273ede57e01
+
+PODFILE CHECKSUM: 79d898dfd77b6ace00f503f660fd36d5c03264d2
+
+COCOAPODS: 1.13.0

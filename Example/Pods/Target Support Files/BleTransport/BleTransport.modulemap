@@ -1,0 +1,6 @@
+framework module BleTransport {
+  umbrella header "BleTransport-umbrella.h"
+
+  export *
+  module * { export * }
+}
